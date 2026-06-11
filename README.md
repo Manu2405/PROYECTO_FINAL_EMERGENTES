@@ -256,7 +256,7 @@ repositorio-TI26-OvandoSALAS/
 **MSc. Efraín F. Luna**
 
 Correo:
-[efrainf.luna@gmail.com](mailto:elunam@univalle.edu)
+[elunam@univalle.edu](mailto:elunam@univalle.edu)
 
 ---
 
