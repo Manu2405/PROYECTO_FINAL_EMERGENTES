@@ -42,6 +42,17 @@ Desarrollar un modelo predictivo basado en Redes Neuronales Artificiales que per
 
 ---
 
+## 🏥 Cumplimiento del Objetivo (Análisis Clínico)
+
+El proyecto cumple satisfactoriamente con el objetivo fundamental de **predecir el riesgo de accidente cerebrovascular basado en factores demográficos y clínicos**:
+
+1. **Factores Clínicos y Demográficos Utilizados**: Se procesaron e incorporaron variables demográficas clave (edad, género, ocupación, lugar de residencia) y factores clínicos críticos (hipertensión, nivel promedio de glucosa, historial de enfermedades cardíacas, índice de masa corporal y estado de tabaquismo).
+2. **Modelado Predictivo**: La Red Neuronal (MLP) diseñada fue capaz de aprender las relaciones no lineales y complejas entre estos factores de riesgo para determinar la probabilidad (riesgo) de que un paciente sufra un evento cerebrovascular.
+3. **Priorización Diagnóstica (Sensibilidad)**: Se implementaron técnicas avanzadas de balanceo de datos (SMOTE) para abordar la baja prevalencia del ACV en el dataset (~5%). Esto aseguró que el modelo priorice la **sensibilidad clínica** (identificar correctamente a los pacientes en verdadero riesgo) y no caiga en el sesgo de predecir que ningún paciente enfermará.
+4. **Validación Funcional**: Las métricas evaluadas (Recall, Matriz de Confusión y Curvas ROC) demostraron la viabilidad de utilizar esta red neuronal como una herramienta de apoyo en el triaje o prevención médica primaria.
+
+---
+
 ## 📊 Dataset Utilizado
 
 ### Stroke Prediction Dataset
@@ -240,14 +251,14 @@ repositorio-TI26-OvandoSALAS/
 
 | Actividad                | Estado |
 | ------------------------ | ------ |
-| Descarga del Dataset     | ⏳      |
-| EDA                      | ⏳      |
-| Preprocesamiento         | ⏳      |
-| Entrenamiento MLP        | ⏳      |
-| Modelo Comparativo       | ⏳      |
-| Evaluación de Resultados | ⏳      |
-| Informe Final            | ⏳      |
-| Presentación Final       | ⏳      |
+| Descarga del Dataset     | ✅      |
+| EDA                      | ✅      |
+| Preprocesamiento         | ✅      |
+| Entrenamiento MLP        | ✅      |
+| Modelo Comparativo       | ✅      |
+| Evaluación de Resultados | ✅      |
+| Informe Final            | ✅      |
+| Presentación Final       | ✅      |
 
 ---
 
